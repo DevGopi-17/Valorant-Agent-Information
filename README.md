@@ -44,5 +44,5 @@ Valorant-Agent-Viewer/        <-- Root project folder
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/DevGopi-17/valorant-agent-viewer.git
+git clone https://github.com/DevGopi-17/Valorant-Agent-Information.git
 cd valorant-agent-viewer
