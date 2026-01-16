@@ -2,8 +2,6 @@ import tkinter as tk
 from tkinter import ttk
 from PIL import Image, ImageTk
 
-
-# --- Valorant Classes ---
 class ValorantAgent:
     def __init__(self, name, age, category, country, abilities, description, image_path=None):
         self.name = name
@@ -203,7 +201,7 @@ class ValorantDatabase:
     def get_agent(self, name):
         return self.agents.get(name, None)
 
-# --- GUI ---
+#GUI
 def run_gui():
     db = ValorantDatabase()
 
@@ -243,7 +241,7 @@ def run_gui():
                     photo = ImageTk.PhotoImage(img)
 
                     image_label.config(image=photo)
-                    image_label.image = photo  # prevent garbage collection
+                    image_label.image = photo  
                 except Exception as e:
                     image_label.config(text="Image failed to load")
             else:
