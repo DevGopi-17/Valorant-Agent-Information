@@ -23,7 +23,15 @@ A simple **Python GUI application** to view information and images of Valorant a
 
 ## Screenshots
 
-![Jett](ss-jett.jpeg "Jett Agent")
+<details>
+<summary>Dashboard Image</summary>
+
+The main dashboard showing the image and agent information:
+
+![Dashboard Screenshot](ss-jett.jpeg)
+
+</details>
+<!-- ![Jett](ss-jett.jpeg "Jett Agent") -->
 
 ---
 ## File Structure
@@ -45,4 +53,7 @@ Valorant-Agent-Viewer/        <-- Root project folder
 
 ```bash
 git clone https://github.com/DevGopi-17/Valorant-Agent-Information.git
+```
+```
 cd valorant-agent-viewer
+```
