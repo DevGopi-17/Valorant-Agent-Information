@@ -8,6 +8,7 @@ A simple **Python GUI application** to view information and images of Valorant a
 
 ## Features
 
+
 - Browse all Valorant agents via a dropdown menu.
 - Display detailed information including:
   - Name
